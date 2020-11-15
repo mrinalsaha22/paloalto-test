@@ -4,15 +4,15 @@
   gather_facts: False
   environment:
     PYTHONHTTPSVERIFY: 0
-    inventory: "./inventory"
+    
 
 
   vars:
     server: 192.168.35.135
     
 
-  collections:
-     - paloaltonetworks.panos
+  #collections:
+  #   - paloaltonetworks.panos
 
   #roles:
    #  - role: PaloAltoNetworks.paloaltonetworks
