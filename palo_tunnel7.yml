@@ -2,6 +2,11 @@
   hosts: all
   connection: local
   gather_facts: False
+  environment:
+    PYTHONHTTPSVERIFY: 0
+    
+
+
   vars:
     server: 192.168.35.135
     
