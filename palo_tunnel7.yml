@@ -4,6 +4,7 @@
   gather_facts: False
   vars:
     server: 192.168.35.135
+    ansible_python_interpreter: /usr/bin/python
 
   collections:
      - paloaltonetworks.panos
